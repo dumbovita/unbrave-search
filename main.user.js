@@ -1,0 +1,16 @@
+// ==UserScript==
+// @name         Brave Search NoAI
+// @namespace    dumbovita
+// @homepage     https://github.com/dumbovita/bravesearch-noai
+// @author       dumbovita
+// @version      0.1
+// @description  hides ai features in brave search
+// @match        https://search.brave.com/*
+// @grant        none
+// ==/UserScript==
+
+document.head.appendChild(
+    Object.assign(document.createElement("style"), {
+        textContent: `#submit-llm-button,#ai-features-button,#chatllm-main-answer-content,#llm-snippet,#chatllm-conversation,.chatllm-content,.chatllm-answer-list,.chatllm-disclaimer,.tab-item a[href*="/ask"],.llm-output,.followups-wrapper,#chatllm-actions,.qa-inline-entity,.inline-refs,[class*="llm-"]{display:none!important;}`,
+    }),
+);
