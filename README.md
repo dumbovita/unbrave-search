@@ -4,7 +4,7 @@ Hides AI features in [Brave Search](https://search.brave.com)
 
 ## Install
 
-[Userscript](main.user.js?raw=1) or [Userstyle](userstyle.user.css?raw=1)
+[Userscript](https://raw.githubusercontent.com/dumbovita/bravesearch-noai/main/main.user.js) or [Userstyle](https://raw.githubusercontent.com/dumbovita/bravesearch-noai/main/userstyle.user.css)
 
 Choose one based on your browser extension.
 
