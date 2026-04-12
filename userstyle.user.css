@@ -3,7 +3,7 @@
 @namespace    dumbovita
 @homepage     https://github.com/dumbovita/bravesearch-noai
 @author       dumbovita
-@version      0.1
+@version      0.2
 @description  hides ai features in brave search
 ==/UserStyle== */
 
@@ -22,6 +22,7 @@
     #chatllm-actions,
     .qa-inline-entity,
     .inline-refs,
+    .download-cta,
     [class*="llm-"] {
         display: none !important;
     }
