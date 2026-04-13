@@ -12,9 +12,9 @@ Choose one based on your browser extension.
 
 You need one of these extensions installed first:
 
-| Extension                                         | Browser                              |
-| ------------------------------------------------- | ------------------------------------ |
-| [Violentmonkey](https://violentmonkey.github.io/) | Chrome, Firefox, Edge, Safari        |
-| [Tampermonkey](https://www.tampermonkey.net/)     | Chrome, Firefox, Edge, Opera, Safari |
-| [Greasemonkey](https://www.greasespot.net/)       | Firefox                              |
-| [Stylus](https://add0n.com/stylus.html)           | Chrome, Firefox, Edge                |
+| Extension                                         | Browser                   |
+| ------------------------------------------------- | ------------------------- |
+| [Violentmonkey](https://violentmonkey.github.io/) | Chromium, Firefox         |
+| [Tampermonkey](https://www.tampermonkey.net/)     | Chromium, Firefox, Safari |
+| [Greasemonkey](https://www.greasespot.net/)       | Firefox                   |
+| [Stylus](https://add0n.com/stylus.html)           | Chromium, Firefox         |
