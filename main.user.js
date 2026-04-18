@@ -3,11 +3,11 @@
 // @namespace    dumbovita
 // @homepage     https://github.com/dumbovita/unbrave-search
 // @author       dumbovita
-// @version      0.3
-// @description  hides ai features in brave search
+// @version      3.1
+// @description  hides AI features and unnecessary popups in Brave Search
 // @match        https://search.brave.com/*
 // @grant        none
-// @run-at       document-start
+// @run-at       document-end
 // ==/UserScript==
 
 (document.head || document.documentElement).appendChild(

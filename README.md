@@ -1,12 +1,13 @@
 # Unbrave Search
 
-Hides AI features in [Brave Search](https://search.brave.com)
+Hides AI features and unnecessary popups in [Brave Search](https://search.brave.com)
 
 ## Install
 
 [Userscript](https://raw.githubusercontent.com/dumbovita/unbrave-search/main/main.user.js) or [Userstyle](https://raw.githubusercontent.com/dumbovita/unbrave-search/main/userstyle.user.css)
 
 Choose one based on your browser extension.
+Do not install both.
 
 ## Requirements
 
