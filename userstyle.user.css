@@ -1,13 +1,14 @@
 /* ==UserStyle==
-@name         Brave Search NoAI
+@name         Unbrave Search
 @namespace    dumbovita
-@homepage     https://github.com/dumbovita/bravesearch-noai
+@homepage     https://github.com/dumbovita/unbrave-search
 @author       dumbovita
-@version      0.2
+@version      0.3
 @description  hides ai features in brave search
 ==/UserStyle== */
 
 @-moz-document domain("search.brave.com") {
+
     #submit-llm-button,
     #ai-features-button,
     #chatllm-main-answer-content,
@@ -23,7 +24,9 @@
     .qa-inline-entity,
     .inline-refs,
     .download-cta,
-    [class*="llm-"] {
+    [class*="llm-"],
+    .before-quick-goggles,
+    dialog:has(.promo-content) {
         display: none !important;
     }
 }
